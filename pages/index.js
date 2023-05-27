@@ -6,7 +6,7 @@ import { getPosts } from "../services";
 
 export default function Home({ posts }) {
   return (
-    <div className="container mx-auto px-20 mb-8">
+    <div className="container mx-auto lg:px-20 px-5 mb-8">
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">

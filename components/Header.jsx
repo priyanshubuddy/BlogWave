@@ -15,8 +15,8 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-20 mb-8">
-      <div className="border-b-2 w-full inline-block border-black py-8">
+    <div className="container mx-auto lg:px-20 mb-8">
+      <div className="border-b-2 w-full inline-block border-black py-8 max-sm:text-center">
         <div className="md:float-left block">
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-white shadow-text">
